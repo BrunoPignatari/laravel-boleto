@@ -1,10 +1,10 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Boleto\Render;
+namespace Brunopignatari\LaravelBoleto\Boleto\Render;
 
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Render\Pdf as PdfContract;
-use Eduardokum\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Render\Pdf as PdfContract;
+use Brunopignatari\LaravelBoleto\Util;
 use Illuminate\Support\Str;
 
 class PdfCaixa extends AbstractPdf implements PdfContract

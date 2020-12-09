@@ -1,12 +1,12 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
+namespace Brunopignatari\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
 
 use DeepCopyTest\B;
-use Eduardokum\LaravelBoleto\CalculoDV;
-use Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\CalculoDV;
+use Brunopignatari\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
+use Brunopignatari\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Brunopignatari\LaravelBoleto\Util;
 
 class Bradesco extends AbstractRemessa implements RemessaContract
 {

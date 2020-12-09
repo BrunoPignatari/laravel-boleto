@@ -1,11 +1,11 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Tests\Boleto;
+namespace Brunopignatari\LaravelBoleto\Tests\Boleto;
 
-use Eduardokum\LaravelBoleto\Boleto\Banco as Boleto;
-use Eduardokum\LaravelBoleto\Boleto\Render\Pdf;
-use Eduardokum\LaravelBoleto\Pessoa;
-use Eduardokum\LaravelBoleto\Tests\TestCase;
+use Brunopignatari\LaravelBoleto\Boleto\Banco as Boleto;
+use Brunopignatari\LaravelBoleto\Boleto\Render\Pdf;
+use Brunopignatari\LaravelBoleto\Pessoa;
+use Brunopignatari\LaravelBoleto\Tests\TestCase;
 
 class BoletoTest extends TestCase
 {

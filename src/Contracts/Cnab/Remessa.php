@@ -1,5 +1,5 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Contracts\Cnab;
+namespace Brunopignatari\LaravelBoleto\Contracts\Cnab;
 
 interface Remessa extends Cnab
 {

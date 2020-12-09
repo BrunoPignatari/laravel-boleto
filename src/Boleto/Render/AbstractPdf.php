@@ -1,5 +1,5 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Boleto\Render;
+namespace Brunopignatari\LaravelBoleto\Boleto\Render;
 
 abstract class AbstractPdf extends \FPDF
 {
