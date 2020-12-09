@@ -45,8 +45,8 @@ class Bradesco  extends AbstractBoleto implements BoletoContract
      * @var string
      */
     protected $especiesCodigo = [
-        'CH'  => '01', //Cheque
-        'DM'  => '02', //Duplicata Mercantil
+        'CH'  => '02', //Cheque
+        'DM'  => '01', //Duplicata Mercantil
         'DMI' => '03', //Duplicata Mercantil p/ Indicação
         'DS'  => '04', //Duplicata de Serviço
         'DSI' => '05', //Duplicata de Serviço p/ Indicação
