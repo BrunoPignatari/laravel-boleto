@@ -1,40 +1,49 @@
 <?php
-namespace Brunopignatari\LaravelBoleto\Cnab\Retorno\Cnab400;
 
-use Brunopignatari\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Trailer as TrailerContract;
-use Brunopignatari\LaravelBoleto\MagicTrait;
+namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab400;
+
+use Eduardokum\LaravelBoleto\MagicTrait;
+use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Trailer as TrailerContract;
 
 class Trailer implements TrailerContract
 {
     use MagicTrait;
+
     /**
      * @var float
      */
     protected $valorTitulos;
+
     /**
      * @var int
      */
     protected $avisos = 0;
+
     /**
      * @var int
      */
     protected $quantidadeTitulos;
+
     /**
      * @var int
      */
     protected $quantidadeLiquidados = 0;
+
     /**
      * @var int
      */
     protected $quantidadeBaixados = 0;
+
     /**
      * @var int
      */
     protected $quantidadeEntradas = 0;
+
     /**
      * @var int
      */
     protected $quantidadeAlterados = 0;
+
     /**
      * @var int
      */

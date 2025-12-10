@@ -1,17 +1,15 @@
-[![Packagist](https://img.shields.io/packagist/v/Brunopignatari/laravel-boleto.svg?style=flat-square)](https://github.com/Brunopignatari/laravel-boleto)
-[![Packagist](https://img.shields.io/packagist/dt/Brunopignatari/laravel-boleto.svg?style=flat-square)](https://github.com/Brunopignatari/laravel-boleto)
-[![Packagist](https://img.shields.io/packagist/l/Brunopignatari/laravel-boleto.svg?style=flat-square)](https://github.com/Brunopignatari/laravel-boleto)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Brunopignatari/laravel-boleto/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Brunopignatari/laravel-boleto/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/Brunopignatari/laravel-boleto/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Brunopignatari/laravel-boleto/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Brunopignatari/laravel-boleto/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Brunopignatari/laravel-boleto/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/Brunopignatari/laravel-boleto/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Brunopignatari/laravel-boleto/?branch=master)
-[![Build Status](https://travis-ci.org/Brunopignatari/laravel-boleto.svg?branch=master)](https://travis-ci.org/Brunopignatari/laravel-boleto)
-[![GitHub forks](https://img.shields.io/github/forks/Brunopignatari/laravel-boleto.svg?style=social&label=Fork)](https://github.com/Brunopignatari/laravel-boleto)
+ [![Packagist](https://img.shields.io/packagist/v/eduardokum/laravel-boleto.svg?style=flat-square)](https://github.com/eduardokum/laravel-boleto)
+[![Packagist](https://img.shields.io/packagist/dt/eduardokum/laravel-boleto.svg?style=flat-square)](https://github.com/eduardokum/laravel-boleto)
+[![Packagist](https://img.shields.io/packagist/l/eduardokum/laravel-boleto.svg?style=flat-square)](https://github.com/eduardokum/laravel-boleto)
+[![build](https://github.com/eduardokum/laravel-boleto/actions/workflows/build.yml/badge.svg)](https://github.com/eduardokum/laravel-boleto/actions/workflows/build.yml)
+[![GitHub forks](https://img.shields.io/github/forks/eduardokum/laravel-boleto.svg?style=social&label=Fork)](https://github.com/eduardokum/laravel-boleto)
 
 # Laravel Boleto
 Pacote para gerar boletos, remessas e leitura de retorno.
 
 **Projeto atualizado para o PHP 7.2, utilize sempre a última versão do PHP**
+
+**Suporte ao Laravel 6 em diante**
 
 [Documentação do Projeto](https://laravel-boleto.readthedocs.io/)
 
@@ -30,9 +28,7 @@ Mas também, caso você ache que qualquer informação obtida aqui, lhe foi úti
         
 *Agradecemos a contribuição.*
 
-## Apoiadores
-<a target="_blank" href=" https://www.jetbrains.com/?from=LaravelBoleto">
-         <img alt="Jetbrains" width="100" src="https://account.jetbrains.com/static/images/jetbrains-logo-inv.svg"/></a>
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=b99ef059ce2e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 ## Apoiadores (Doações)
 
@@ -41,3 +37,4 @@ Mas também, caso você ache que qualquer informação obtida aqui, lhe foi úti
 * Alberto Yorimasa Kaneto
 * Luciano Martins
 * CAJU (ARAUJO & PRADO) 
+* FABRÍCIO WICKERT

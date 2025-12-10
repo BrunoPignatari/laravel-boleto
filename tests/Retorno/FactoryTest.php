@@ -1,55 +1,50 @@
 <?php
 
-namespace Brunopignatari\LaravelBoleto\Tests\Retorno;
+namespace Retorno;
 
-use Brunopignatari\LaravelBoleto\Cnab\Retorno\Cnab400\Detalhe;
-use Brunopignatari\LaravelBoleto\Tests\TestCase;
-use Illuminate\Support\Collection;
+use Exception;
+use Eduardokum\LaravelBoleto\Tests\TestCase;
 
 class FactoryTest extends TestCase
 {
-    /**
-     * @expectedException     \Exception
-     */
-    public function testCriarEmBranco(){
-        $retorno = \Brunopignatari\LaravelBoleto\Cnab\Retorno\Factory::make('');
+    public function testCriarEmBranco()
+    {
+        $this->expectException(Exception::class);
+        $retorno = \Eduardokum\LaravelBoleto\Cnab\Retorno\Factory::make('');
         $retorno->processar();
     }
 
-    /**
-     * @expectedException     \Exception
-     */
-    public function testCriarComRemessa(){
-        $retorno = \Brunopignatari\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__ . '/files/cnab400/remessa.txt');
+    public function testCriarComRemessa()
+    {
+        $this->expectException(Exception::class);
+        $retorno = \Eduardokum\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__.'/files/cnab400/remessa.txt');
         $retorno->processar();
     }
 
-    /**
-     * @expectedException     \Exception
-     */
-    public function testCriarComPathQueNaoExiste(){
-        $retorno = \Brunopignatari\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__ . '/files/cnab400/naoexiste.txt');
+    public function testCriarComPathQueNaoExiste()
+    {
+        $this->expectException(Exception::class);
+        $retorno = \Eduardokum\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__.'/files/cnab400/naoexiste.txt');
         $retorno->processar();
     }
 
-    /**
-     * @expectedException     \Exception
-     */
-    public function testCriarComRetornoBancoNaoExiste(){
-        $retorno = \Brunopignatari\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__ . '/files/cnab400/retorno_banco_fake.ret');
+    public function testCriarComRetornoBancoNaoExiste()
+    {
+        $this->expectException(Exception::class);
+        $retorno = \Eduardokum\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__.'/files/cnab400/retorno_banco_fake.ret');
         $retorno->processar();
     }
 
     public function testCriarComFile()
     {
-        $retorno = \Brunopignatari\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__ . '/files/cnab400/bradesco.ret');
+        $retorno = \Eduardokum\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__.'/files/cnab400/bradesco.ret');
         $retorno->processar();
         $this->assertTrue(true);
     }
 
     public function testCriarComString()
     {
-        $retorno = \Brunopignatari\LaravelBoleto\Cnab\Retorno\Factory::make(file_get_contents(__DIR__ . '/files/cnab400/bradesco.ret'));
+        $retorno = \Eduardokum\LaravelBoleto\Cnab\Retorno\Factory::make(file_get_contents(__DIR__.'/files/cnab400/bradesco.ret'));
         $retorno->processar();
         $this->assertTrue(true);
     }
