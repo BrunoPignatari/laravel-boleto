@@ -2,11 +2,11 @@
 
 namespace Brunopignatari\LaravelBoleto\Boleto\Banco;
 
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\CalculoDV;
-use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\CalculoDV;
+use Brunopignatari\LaravelBoleto\Boleto\AbstractBoleto;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
 
 class Banrisul extends AbstractBoleto implements BoletoContract
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Api\Banco;
+namespace Brunopignatari\LaravelBoleto\Api\Banco;
 
 use Illuminate\Support\Arr;
-use Eduardokum\LaravelBoleto\Api\AbstractAPI;
-use Eduardokum\LaravelBoleto\Api\Exception\CurlException;
-use Eduardokum\LaravelBoleto\Api\Exception\HttpException;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Api\Exception\UnauthorizedException;
-use Eduardokum\LaravelBoleto\Boleto\Banco\Unicred as BoletoUnicred;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
+use Brunopignatari\LaravelBoleto\Api\AbstractAPI;
+use Brunopignatari\LaravelBoleto\Api\Exception\CurlException;
+use Brunopignatari\LaravelBoleto\Api\Exception\HttpException;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\Api\Exception\UnauthorizedException;
+use Brunopignatari\LaravelBoleto\Boleto\Banco\Unicred as BoletoUnicred;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
 
 class Unicred extends AbstractAPI
 {

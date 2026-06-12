@@ -1,10 +1,10 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Webhook;
+namespace Brunopignatari\LaravelBoleto\Webhook;
 
-use Eduardokum\LaravelBoleto\MagicTrait;
-use Eduardokum\LaravelBoleto\Contracts\Webhook\Webhook;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\MagicTrait;
+use Brunopignatari\LaravelBoleto\Contracts\Webhook\Webhook;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
 
 abstract class AbstractWebhook implements Webhook
 {

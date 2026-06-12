@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Boleto;
+namespace Brunopignatari\LaravelBoleto\Boleto;
 
 use Exception;
 use Illuminate\Mail\Mailer;

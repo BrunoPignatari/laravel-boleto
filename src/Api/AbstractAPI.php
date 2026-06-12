@@ -1,19 +1,19 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Api;
+namespace Brunopignatari\LaravelBoleto\Api;
 
 use stdClass;
 use Illuminate\Support\Str;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Pessoa;
-use Eduardokum\LaravelBoleto\Contracts\Api\Api;
-use Eduardokum\LaravelBoleto\Api\Exception\CurlException;
-use Eduardokum\LaravelBoleto\Api\Exception\HttpException;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Api\Exception\MissingDataException;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Eduardokum\LaravelBoleto\Api\Exception\UnauthorizedException;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Pessoa;
+use Brunopignatari\LaravelBoleto\Contracts\Api\Api;
+use Brunopignatari\LaravelBoleto\Api\Exception\CurlException;
+use Brunopignatari\LaravelBoleto\Api\Exception\HttpException;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\Api\Exception\MissingDataException;
+use Brunopignatari\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use Brunopignatari\LaravelBoleto\Api\Exception\UnauthorizedException;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
 
 abstract class AbstractAPI implements Api
 {

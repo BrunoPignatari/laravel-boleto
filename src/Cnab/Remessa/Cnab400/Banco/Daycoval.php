@@ -1,14 +1,14 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
+namespace Brunopignatari\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
 
 use Illuminate\Support\Arr;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Pessoa;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Pessoa;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Brunopignatari\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
 
 class Daycoval extends AbstractRemessa implements RemessaContract
 {
@@ -137,7 +137,7 @@ class Daycoval extends AbstractRemessa implements RemessaContract
     }
 
     /**
-     * @param \Eduardokum\LaravelBoleto\Boleto\Banco\Pine $boleto
+     * @param \Brunopignatari\LaravelBoleto\Boleto\Banco\Pine $boleto
      *
      * @return Daycoval
      * @throws ValidationException

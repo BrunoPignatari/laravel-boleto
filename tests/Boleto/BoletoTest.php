@@ -3,12 +3,12 @@
 namespace Brunopignatari\LaravelBoleto\Tests\Boleto;
 
 use Exception;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Pessoa;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Pessoa;
 use PHPUnit\Framework\Constraint\IsType;
-use Eduardokum\LaravelBoleto\Tests\TestCase;
-use Eduardokum\LaravelBoleto\Boleto\Render\Pdf;
-use Eduardokum\LaravelBoleto\Boleto\Banco as Boleto;
+use Brunopignatari\LaravelBoleto\Tests\TestCase;
+use Brunopignatari\LaravelBoleto\Boleto\Render\Pdf;
+use Brunopignatari\LaravelBoleto\Boleto\Banco as Boleto;
 
 class BoletoTest extends TestCase
 {

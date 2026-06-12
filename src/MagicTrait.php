@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto;
+namespace Brunopignatari\LaravelBoleto;
 
 use Illuminate\Support\Str;
 

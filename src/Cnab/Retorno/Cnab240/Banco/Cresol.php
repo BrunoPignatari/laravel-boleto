@@ -1,12 +1,12 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\Banco;
+namespace Brunopignatari\LaravelBoleto\Cnab\Retorno\Cnab240\Banco;
 
 use Illuminate\Support\Arr;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\RetornoCnab240;
-use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\AbstractRetorno;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Contracts\Cnab\RetornoCnab240;
+use Brunopignatari\LaravelBoleto\Cnab\Retorno\Cnab240\AbstractRetorno;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
 
 class Cresol extends AbstractRetorno implements RetornoCnab240
 {

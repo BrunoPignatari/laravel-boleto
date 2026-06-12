@@ -1,18 +1,18 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Api\Banco;
+namespace Brunopignatari\LaravelBoleto\Api\Banco;
 
 use Exception;
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Api\AbstractAPI;
-use Eduardokum\LaravelBoleto\Api\Exception\CurlException;
-use Eduardokum\LaravelBoleto\Api\Exception\HttpException;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Boleto\Banco\Inter as BoletoInter;
-use Eduardokum\LaravelBoleto\Api\Exception\UnauthorizedException;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Api\AbstractAPI;
+use Brunopignatari\LaravelBoleto\Api\Exception\CurlException;
+use Brunopignatari\LaravelBoleto\Api\Exception\HttpException;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\Boleto\Banco\Inter as BoletoInter;
+use Brunopignatari\LaravelBoleto\Api\Exception\UnauthorizedException;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\BoletoAPI as BoletoAPIContract;
 
 class Inter extends AbstractAPI
 {

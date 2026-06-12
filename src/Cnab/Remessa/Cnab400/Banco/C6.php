@@ -1,13 +1,13 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
+namespace Brunopignatari\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
 
 use Illuminate\Support\Arr;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Brunopignatari\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
 
 class C6 extends AbstractRemessa implements RemessaContract
 {
@@ -136,7 +136,7 @@ class C6 extends AbstractRemessa implements RemessaContract
     }
 
     /**
-     * @param \Eduardokum\LaravelBoleto\Boleto\Banco\Bradesco $boleto
+     * @param \Brunopignatari\LaravelBoleto\Boleto\Banco\Bradesco $boleto
      *
      * @return C6
      * @throws ValidationException

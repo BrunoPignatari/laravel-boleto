@@ -3,9 +3,9 @@
 namespace Retorno;
 
 use Illuminate\Support\Collection;
-use Eduardokum\LaravelBoleto\Tests\TestCase;
-use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\Detalhe;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\Tests\TestCase;
+use Brunopignatari\LaravelBoleto\Cnab\Retorno\Cnab240\Detalhe;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
 
 class RetornoCnab240Test extends TestCase
 {
@@ -36,7 +36,7 @@ class RetornoCnab240Test extends TestCase
     public function testRetornoSemDetalheCnab240()
     {
         $this->expectException(ValidationException::class);
-        $retorno = \Eduardokum\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__ . '/files/cnab240/retorno_sem_detalhe.ret');
+        $retorno = \Brunopignatari\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__ . '/files/cnab240/retorno_sem_detalhe.ret');
         $retorno->processar();
     }
 }

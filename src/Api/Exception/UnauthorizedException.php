@@ -1,8 +1,8 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Api\Exception;
+namespace Brunopignatari\LaravelBoleto\Api\Exception;
 
-use Eduardokum\LaravelBoleto\Exception\BaseException;
+use Brunopignatari\LaravelBoleto\Exception\BaseException;
 
 class UnauthorizedException extends BaseException
 {

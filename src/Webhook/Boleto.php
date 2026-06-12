@@ -1,11 +1,11 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Webhook;
+namespace Brunopignatari\LaravelBoleto\Webhook;
 
 use Exception;
 use Carbon\Carbon;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\MagicTrait;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\MagicTrait;
 
 class Boleto
 {

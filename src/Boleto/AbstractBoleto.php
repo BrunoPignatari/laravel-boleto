@@ -9,20 +9,20 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use chillerlan\QRCode\QRCode;
 use chillerlan\QRCode\QROptions;
-use Eduardokum\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Util;
 use chillerlan\QRCode\Data\QRMatrix;
-use Eduardokum\LaravelBoleto\Pessoa;
-use Eduardokum\LaravelBoleto\MagicTrait;
-use Eduardokum\LaravelBoleto\NotaFiscal;
+use Brunopignatari\LaravelBoleto\Pessoa;
+use Brunopignatari\LaravelBoleto\MagicTrait;
+use Brunopignatari\LaravelBoleto\NotaFiscal;
 use chillerlan\QRCode\Output\QROutputInterface;
-use Eduardokum\LaravelBoleto\Boleto\Render\Pdf;
-use Eduardokum\LaravelBoleto\Boleto\Render\Html;
-use Eduardokum\LaravelBoleto\Boleto\Render\PdfCaixa;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto;
-use Eduardokum\LaravelBoleto\Exception\ValidationException;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\NotaFiscal as NotaFiscalContract;
+use Brunopignatari\LaravelBoleto\Boleto\Render\Pdf;
+use Brunopignatari\LaravelBoleto\Boleto\Render\Html;
+use Brunopignatari\LaravelBoleto\Boleto\Render\PdfCaixa;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Boleto;
+use Brunopignatari\LaravelBoleto\Exception\ValidationException;
+use Brunopignatari\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use Brunopignatari\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Brunopignatari\LaravelBoleto\Contracts\NotaFiscal as NotaFiscalContract;
 
 /**
  * Class AbstractBoleto

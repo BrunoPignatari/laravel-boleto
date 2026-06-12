@@ -1,11 +1,11 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Webhook\Banco;
+namespace Brunopignatari\LaravelBoleto\Webhook\Banco;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;
-use Eduardokum\LaravelBoleto\Webhook\Boleto;
-use Eduardokum\LaravelBoleto\Webhook\AbstractWebhook;
+use Brunopignatari\LaravelBoleto\Webhook\Boleto;
+use Brunopignatari\LaravelBoleto\Webhook\AbstractWebhook;
 
 class Inter extends AbstractWebhook
 {

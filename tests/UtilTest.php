@@ -2,10 +2,10 @@
 
 namespace Brunopignatari\LaravelBoleto\Tests;
 
-use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
-use Eduardokum\LaravelBoleto\Pessoa;
+use Brunopignatari\LaravelBoleto\Boleto\AbstractBoleto;
+use Brunopignatari\LaravelBoleto\Pessoa;
 use Exception;
-use Eduardokum\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Util;
 use Illuminate\Support\Arr;
 
 class UtilTest extends TestCase

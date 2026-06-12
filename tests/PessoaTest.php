@@ -3,8 +3,8 @@
 namespace Brunopignatari\LaravelBoleto\Tests;
 
 use Exception;
-use Eduardokum\LaravelBoleto\Util;
-use Eduardokum\LaravelBoleto\Pessoa;
+use Brunopignatari\LaravelBoleto\Util;
+use Brunopignatari\LaravelBoleto\Pessoa;
 use PHPUnit\Framework\Constraint\StringContains;
 
 class PessoaTest extends TestCase

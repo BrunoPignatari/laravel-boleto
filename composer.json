@@ -1,5 +1,6 @@
 {
     "name": "brunopignatari/laravel-boleto",
+    "version": "2.0.1",
     "description": "Biblioteca com boletos para o laravel",
     "keywords": [
         "brunopignatari",
